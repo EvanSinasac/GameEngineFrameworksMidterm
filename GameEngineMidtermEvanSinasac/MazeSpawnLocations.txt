@@ -1,0 +1,6 @@
+Empty Space 1: 15, 15, 0
+Empty Space 2: 15, 45, 0
+Empty Space 3: 50, 15, 0
+Empty Space 4: 50, 45, 0
+Empty Space 5: 85, 15, 0
+Empty Space 6: 85, 45, 0

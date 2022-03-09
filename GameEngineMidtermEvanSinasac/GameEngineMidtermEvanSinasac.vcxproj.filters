@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Question 1">
+      <UniqueIdentifier>{39a58fc0-6956-455d-ac8c-35dbc2bc1312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{65d1f57a-8223-4c6f-b412-14e8f38f10f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{bb5316d3-c75e-41f7-994d-c9ecd5a0a1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{23e4d2de-95b6-46dd-ae98-42f33d511559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{f7a17231-3fe4-4330-8097-c70db3cb56bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{605461f3-2339-439b-9a9c-217852fc8543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{7a7664d7-7690-42fa-8389-4915a848492a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{06ac9748-f7cd-4c01-8d6b-966e0e606901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{372c5511-2735-46fb-be37-0d863ad10e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Question 2">
+      <UniqueIdentifier>{5ad03d96-dfea-481b-aa76-d89febb35392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Question 3">
+      <UniqueIdentifier>{e064c9cf-7ac9-4a0c-bf63-ec3b08ee5809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Question 4">
+      <UniqueIdentifier>{50216a3a-180a-478b-83f1-9225d89e8f7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlyCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="cTank.cpp">
+      <Filter>Question 2</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerTank.cpp">
+      <Filter>Question 2</Filter>
+    </ClCompile>
+    <ClCompile Include="cAITank.cpp">
+      <Filter>Question 3</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletShell.cpp">
+      <Filter>Question 4</Filter>
+    </ClCompile>
+    <ClCompile Include="cLaser.cpp">
+      <Filter>Question 4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\models\mazeOuput_xyz_n_rgba.ply">
+      <Filter>Question 1</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\models\Low_Poly_Tank_Model_3D_model_xyz_n_rgba.ply">
+      <Filter>Question 1</Filter>
+    </None>
+    <None Include="..\common\assets\models\Sphere_xyz_n_rgba.ply">
+      <Filter>Question 1</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Maze_1081418.txt">
+      <Filter>Question 1</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlyCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="iCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="cTank.h">
+      <Filter>Question 2</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerTank.h">
+      <Filter>Question 2</Filter>
+    </ClInclude>
+    <ClInclude Include="cAITank.h">
+      <Filter>Question 3</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletShell.h">
+      <Filter>Question 4</Filter>
+    </ClInclude>
+    <ClInclude Include="cLaser.h">
+      <Filter>Question 4</Filter>
+    </ClInclude>
+    <ClInclude Include="lookDirection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

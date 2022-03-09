@@ -1,0 +1,3 @@
+ModelFileName(extension) Position(x,y,z) Orientation(x,y,z) Scale Colour(r,g,b,a)
+
+end
